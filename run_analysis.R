@@ -60,5 +60,5 @@ summarized_dataset <-
 		summarise_at(columns_to_summarized, mean, na.rm = TRUE)
 
 print(summarized_dataset)
-write.table(summarized_dataset, file = "summarized_dataset.txt")
+write.table(summarized_dataset, file = "summarized_dataset.txt", row.names = FALSE)
 
