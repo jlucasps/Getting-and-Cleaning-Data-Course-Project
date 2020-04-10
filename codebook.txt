@@ -1,0 +1,6 @@
+For each record it is provided:
+======================================
+
+- A name of the activity(WALKING, WALKING_UPSTAIRS, ..)
+- An identifier of the subject who carried out the experiment.
+- A 173-feature vector of all the variables mean and standard deviation 
